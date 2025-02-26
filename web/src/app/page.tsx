@@ -1,10 +1,11 @@
-import Image from "next/image";
+"use client";
+
 import styles from "./page.module.css";
 
 export default function Home() {
   return (
     <div className={styles.page}>
-  
+      <p>pagina</p>
     </div>
   );
 }
